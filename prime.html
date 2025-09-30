@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="prime.css">
+    <title>portifolio</title>
+</head>
+
+<body>
+    <div class="fundo">
+
+    </div>
+    <nav class="navegacao">
+        <ul class="menu">
+            <li><a href="#inicio" class="menu-link">inicio</a>
+            </li>
+            <li><a href="#sobre" class="menu-link">sobre</a>
+            </li>
+            <li><a href="#portifolio" class="menu-link">portifolio</a>
+            </li>
+            <li><a href="#contatinho" class="menu-link">contato</a>
+            </li>
+
+        </ul>
+    </nav>
+    <main id="inicio" class="cabecalho">
+
+        <img src="./img/foto_main.jpg" alt="foto de perfil"
+            class="foto-perfil">
+
+        <h1>higor santos</h1>
+        <p class="cabecalho-subtitulo">portifolio</p>
+
+
+    </main>
+    <section id="sobre" class="sobre">
+        <h2 class="sobre_titulo">sobre mim</h2>
+
+        <div class="sobre-caixa">
+            <p class="sobre-paragrafo">meu nome é higor santos, tenho 18 anos, moro em são paulo capital, sou estudante
+                desenvolvimento web front-end e estou no meu segundo periodo na faculdade de analise e desenvolvimento
+                de sistemas</p>
+
+            <div  class="redes-sociais">
+
+                <a href="https://www.instagram.com/higor.snts0?igsh=MTk3bWV0dTB6bXlxYg==" target="_blank"><img src="./icon/instagram.png"
+                        alt="instagram" class="icone-redes"></a>
+
+
+                <a href="https://www.linkedin.com/in/higor-santos-804083278" target="_blank"><img
+                        src="./icon/linkedin.png" alt="linkedin" class="icone-redes"></a>
+
+                <a href="https://github.com/hig00000" target="_blank"><img
+                        src="./icon/github.png" alt="linkedin" class="icone-redes"></a>
+
+
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <section id="portifolio" class="portifolio">
+        <h2 class="portifolio-titulo">portifolio</h2>
+        <div class="projeto-caixa">
+            <!-- caixa 1 -->
+            <div class="projetos-card">
+
+                <img src="./img/projeto_pai.png" alt="vidracaria online" class="projeto-imagem">
+
+                <h3 class="info-projetos">vidracaria online
+
+                </h3>
+
+                <p class="paragrafos-projeto">Aqui foi um site que eu desenvolvi para o meu pai e que esta em andamento
+                </p>
+
+            </div>
+            <!-- caixa 2  -->
+            <div class="projetos-card">
+                <img src="./img/em_espera.png" alt="vidracaria online" class="projeto-imagem">
+                <div class="caixa-texto-project">
+
+
+                    <h3 class="info-projetos">gestao de estoque</h3>
+                    <p class="paragrafos-projeto">site desenvolvido para um projeto de uma empresa</p>
+                </div>
+            </div>
+            <!-- caixa 3  -->
+
+
+            <div class="projetos-card">
+                <img src="./img/em_espera.png" alt="vidracaria online" class="projeto-imagem">
+                <div class="caixa-texto-project">
+                    <h3 class="info-projetos">microsoft</h3>
+                    <p class="paragrafos-projeto">projeto em andmento</p>
+                </div>
+            </div>
+
+
+
+        </div>
+
+    </section>
+
+
+
+    <section id="contatinho" class="contatinho">
+        <h2 class="contatinho-titulo">contato</h2>
+
+
+        <form class="formulario-contato" id="formulario" onsubmit="enviarFormulario(event)">
+            <div class="grupo-formulario">
+                <input class="campo-form" placeholder="nome" id="nome">
+            </div>
+            <div class="grupo-formulario" class="campo-form">
+                <textarea class="campo-form" placeholder="digete sua mensagem" row=4 id="mensagem"></textarea>
+            </div>
+            <button type="submit" class="botao-form">enviar WhatsApp</button>
+        </form>
+
+    </section>
+
+
+
+    <script src="prime.js"></script>
+</body>
+
+</html>
