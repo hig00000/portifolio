@@ -1,132 +1,185 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="prime.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="prime.css" />
     <title>portifolio</title>
-</head>
+  </head>
 
-<body>
-    <div class="fundo">
-
-    </div>
+  <body>
+    <div class="fundo"></div>
     <nav class="navegacao">
-        <ul class="menu">
-            <li><a href="#inicio" class="menu-link">inicio</a>
-            </li>
-            <li><a href="#sobre" class="menu-link">sobre</a>
-            </li>
-            <li><a href="#portifolio" class="menu-link">portifolio</a>
-            </li>
-            <li><a href="#contatinho" class="menu-link">contato</a>
-            </li>
-
-        </ul>
+      <ul class="menu">
+        <li><a href="#inicio" class="menu-link">Início</a></li>
+        <li><a href="#sobre" class="menu-link">Sobre</a></li>
+        <li><a href="#habilidades" class="menu-link">Habilidades</a></li>
+        <li><a href="#portifolio" class="menu-link">Portfólio</a></li>
+        <li><a href="#contatinho" class="menu-link">Contato</a></li>
+      </ul>
     </nav>
+
     <main id="inicio" class="cabecalho">
-
-        <img src="./img/foto_main.jpg" alt="foto de perfil"
-            class="foto-perfil">
-
-        <h1>higor santos</h1>
-        <p class="cabecalho-subtitulo">portifolio</p>
-
-
+      <img
+        src="./img/foto_main.jpg"
+        alt="Foto de perfil Higor Santos"
+        class="foto-perfil"
+      />
+      <h1>higor santos</h1>
+      <p class="cabecalho-subtitulo">Desenvolvedor Front-End</p>
     </main>
+
     <section id="sobre" class="sobre">
-        <h2 class="sobre_titulo">sobre mim</h2>
-
-        <div class="sobre-caixa">
-            <p class="sobre-paragrafo">meu nome é higor santos, tenho 18 anos, moro em são paulo capital, sou estudante
-                desenvolvimento web front-end e estou no meu segundo periodo na faculdade de analise e desenvolvimento
-                de sistemas</p>
-
-            <div  class="redes-sociais">
-
-                <a href="https://www.instagram.com/higor.snts0?igsh=MTk3bWV0dTB6bXlxYg==" target="_blank"><img src="./icon/instagram.png"
-                        alt="instagram" class="icone-redes"></a>
-
-
-                <a href="https://www.linkedin.com/in/higor-santos-804083278" target="_blank"><img
-                        src="./icon/linkedin.png" alt="linkedin" class="icone-redes"></a>
-
-                <a href="https://github.com/hig00000" target="_blank"><img
-                        src="./icon/github.png" alt="linkedin" class="icone-redes"></a>
-
-
-            </div>
+      <h2 class="sobre_titulo">Sobre Mim</h2>
+      <div class="sobre-caixa">
+        <p class="sobre-paragrafo">
+          Meu nome é Higor Santos, tenho 18 anos e moro em São Paulo. Sou
+          estudante de desenvolvimento web front-end e estou no meu segundo
+          período na faculdade de Análise e Desenvolvimento de Sistemas.
+        </p>
+        <div class="redes-sociais">
+          <a href="https://www.instagram.com/higor.snts0" target="_blank">
+            <img
+              src="./icon/instagram.png"
+              alt="Instagram"
+              class="icone-redes"
+            />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/higor-santos-804083278"
+            target="_blank"
+          >
+            <img
+              src="./icon/linkedin.png"
+              alt="LinkedIn"
+              class="icone-redes"
+            />
+          </a>
+          <a href="https://github.com/hig00000" target="_blank">
+            <img
+              src="./icon/github.png"
+              alt="GitHub"
+              class="icone-redes"
+            />
+          </a>
         </div>
-
+      </div>
     </section>
 
-
+    <section id="habilidades">
+      <div class="container">
+        <div class="section-title">
+          <h2>Minhas Habilidades</h2>
+          <p>Nível de proficiência nas principais tecnologias que utilizo.</p>
+        </div>
+        <div class="skills-list">
+          <div class="skill-item">
+            <div class="skill-info">
+              <p class="skill-name">HTML5</p>
+              <p class="skill-percentage">95%</p>
+            </div>
+            <div class="progress-bar-container">
+              <div class="progress-bar" style="width: 95%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <p class="skill-name">CSS3</p>
+              <p class="skill-percentage">90%</p>
+            </div>
+            <div class="progress-bar-container">
+              <div class="progress-bar" style="width: 90%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <p class="skill-name">JavaScript</p>
+              <p class="skill-percentage">80%</p>
+            </div>
+            <div class="progress-bar-container">
+              <div class="progress-bar" style="width: 80%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <p class="skill-name">Git & GitHub</p>
+              <p class="skill-percentage">85%</p>
+            </div>
+            <div class="progress-bar-container">
+              <div class="progress-bar" style="width: 85%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <section id="portifolio" class="portifolio">
-        <h2 class="portifolio-titulo">portifolio</h2>
-        <div class="projeto-caixa">
-            <!-- caixa 1 -->
-            <div class="projetos-card">
-
-                <img src="./img/projeto_pai.png" alt="vidracaria online" class="projeto-imagem">
-
-                <h3 class="info-projetos">vidracaria online
-
-                </h3>
-
-                <p class="paragrafos-projeto">Aqui foi um site que eu desenvolvi para o meu pai e que esta em andamento
-                </p>
-
-            </div>
-            <!-- caixa 2  -->
-            <div class="projetos-card">
-                <img src="./img/em_espera.png" alt="vidracaria online" class="projeto-imagem">
-                <div class="caixa-texto-project">
-
-
-                    <h3 class="info-projetos">gestao de estoque</h3>
-                    <p class="paragrafos-projeto">site desenvolvido para um projeto de uma empresa</p>
-                </div>
-            </div>
-            <!-- caixa 3  -->
-
-
-            <div class="projetos-card">
-                <img src="./img/em_espera.png" alt="vidracaria online" class="projeto-imagem">
-                <div class="caixa-texto-project">
-                    <h3 class="info-projetos">microsoft</h3>
-                    <p class="paragrafos-projeto">projeto em andmento</p>
-                </div>
-            </div>
-
-
-
+      <h2 class="portifolio-titulo">Portfólio</h2>
+      <div class="projeto-caixa">
+        <div class="projetos-card">
+          <img
+            src="./img/projeto_pai.png"
+            alt="Vidraçaria Online"
+            class="projeto-imagem"
+          />
+          <div class="caixa-texto-project">
+            <h3 class="info-projetos">Vidraçaria Online</h3>
+            <p class="paragrafos-projeto">
+              Site institucional para uma vidraçaria, focado em agendamentos e
+              apresentação de serviços. (Em andamento)
+            </p>
+          </div>
         </div>
-
+        <div class="projetos-card">
+          <img
+            src="./img/em_espera.png"
+            alt="Gestão de Estoque"
+            class="projeto-imagem"
+          />
+          <div class="caixa-texto-project">
+            <h3 class="info-projetos">Gestão de Estoque</h3>
+            <p class="paragrafos-projeto">
+              Sistema desenvolvido como projeto para uma empresa fictícia, para
+              controle de entrada e saída de produtos.
+            </p>
+          </div>
+        </div>
+        <div class="projetos-card">
+          <img
+            src="./img/em_espera.png"
+            alt="Projeto Futuro"
+            class="projeto-imagem"
+          />
+          <div class="caixa-texto-project">
+            <h3 class="info-projetos">Clone UI Microsoft</h3>
+            <p class="paragrafos-projeto">
+              Recriação da interface de um dos produtos da Microsoft para
+              aprimorar minhas habilidades em CSS. (Em andamento)
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
-
-
 
     <section id="contatinho" class="contatinho">
-        <h2 class="contatinho-titulo">contato</h2>
-
-
-        <form class="formulario-contato" id="formulario" onsubmit="enviarFormulario(event)">
-            <div class="grupo-formulario">
-                <input class="campo-form" placeholder="nome" id="nome">
-            </div>
-            <div class="grupo-formulario" class="campo-form">
-                <textarea class="campo-form" placeholder="digete sua mensagem" row=4 id="mensagem"></textarea>
-            </div>
-            <button type="submit" class="botao-form">enviar WhatsApp</button>
-        </form>
-
+      <h2 class="contatinho-titulo">Contato</h2>
+      <form class="formulario-contato" onsubmit="enviarFormulario(event)">
+        <div class="grupo-formulario">
+          <input class="campo-form" placeholder="Seu nome" id="nome" required />
+        </div>
+        <div class="grupo-formulario">
+          <textarea
+            class="campo-form"
+            placeholder="Digite sua mensagem"
+            rows="4"
+            id="mensagem"
+            required
+          ></textarea>
+        </div>
+        <button type="submit" class="botao-form">Enviar via WhatsApp</button>
+      </form>
     </section>
 
-
-
     <script src="prime.js"></script>
-</body>
-
+  </body>
 </html>
