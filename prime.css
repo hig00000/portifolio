@@ -14,6 +14,7 @@ html{
             --cor-fundo: #0f172a;
             --cor-texto: #e2e8f0;
             --cor-texto-claro: rgba(255, 255, 255, 0.1);
+            --cor-texto-escuro:rgb(0, 0, 0);
         }
 
         body {
@@ -241,7 +242,7 @@ line-height: 1.6;
     display: block;
 }
 
-
+/* Estilos da seção de portfólio */
 .portifolio{
   padding: 6rem 2rem;
 }
@@ -294,7 +295,20 @@ object-fit: cover;
     line-height: 1.5;
     color: whitesmoke;
 }
+.link-projeto{
+    color: var(--cor-texto-escuro);
+    text-decoration: none;
+    font-size: 1rem;
 
+
+}
+.link-projeto:hover{
+    text-decoration: underline;
+    color: var(--cor-primaria);
+}
+
+
+/* portifolio */
 .contatinho{
 padding: 6rem 2rem;
 
